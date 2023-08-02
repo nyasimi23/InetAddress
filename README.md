@@ -1,18 +1,34 @@
-## Inet Address
+## Network Information Java Programs
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This repository contains four simple Java programs that provide network-related information. Each program focuses on retrieving specific network details.
 
-## Folder Structure
+## Programs
 
-The workspace contains two folders by default, where:
+1. `HostIP.java`: Retrieves the IP address associated with a given hostname using the InetAddress class.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+1. `LoopbackAddressInfo.java`: Retrieves and displays the loopback address (localhost) using the InetAddress class.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+2. `IPaddressResolver.java`: Retrieves the IP address associated with a given URL (hostname) using the InetAddress class.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+3. `LocalHostInfo.java`: Retrieves the host name and IP address of the local machine using the InetAddress class.
 
-## Dependency Management
+## Getting Started
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Prerequisites
+
+- Java Development Kit (JDK) installed on your system.
+- A Java IDE or compiler to run the program (e.g., VS Code,  IntelliJ, or javac command-line tool).
+
+
+### How to run
+
+1. Clone or download this repository to your local machine.
+1. Open a Java IDE or your favorite code editor (e.g., Eclipse, IntelliJ, or Visual Studio Code).
+1. Import the Java files into your Java project.
+1. Compile and run each Java file to execute the corresponding program.
+
+
+### Troubleshooting
+
+- If any program encounters an issue, such as an unknown host or inability to retrieve information, check your network connectivity and ensure that you have entered valid inputs.
+
